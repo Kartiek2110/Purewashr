@@ -64,7 +64,7 @@ function Footer() {
                   whileHover={{ x: 5 }}
                   transition={{ type: 'spring', stiffness: 300 }}
                 >
-                  <a href="#" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base">{item}</a>
+                  <a href="https://purewashr.vercel.app/about" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base">{item}</a>
                 </motion.li>
               ))}
             </ul>
