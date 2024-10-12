@@ -46,7 +46,7 @@ function Home() {
       setCurrentIndex((prevIndex) =>
         prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change slide every 10 seconds
+    }, 10000); // Change slide every 10 seconds
 
     return () => clearInterval(interval);
   }, []);
