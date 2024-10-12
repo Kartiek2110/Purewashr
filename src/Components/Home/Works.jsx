@@ -48,10 +48,10 @@ function Works() {
   };
 
   const workSteps = [
-    { icon: 'public/Images/works-icon-1.png', number: 1, title: 'Book A Pickup', description: 'Choose when and where you wish us to collect & deliver your laundry.' },
-    { icon: 'public/Images/works-icon-2.png', number: 2, title: 'We Collect', description: 'Our team collects your clothes from your doorstep.' },
-    { icon: 'public/Images/works-icon-3.png', number: 3, title: 'Expert Processing', description: 'Choose when and where you wish us to collect & deliver your laundry.' },
-    { icon: 'public/Images/works-icon-4.png', number: 4, title: 'We Deliver', description: 'We bring back your freshly cleaned and rejuvenated clothes' },
+    { icon: '/Images/works-icon-1.png', number: 1, title: 'Book A Pickup', description: 'Choose when and where you wish us to collect & deliver your laundry.' },
+    { icon: '/Images/works-icon-2.png', number: 2, title: 'We Collect', description: 'Our team collects your clothes from your doorstep.' },
+    { icon: '/Images/works-icon-3.png', number: 3, title: 'Expert Processing', description: 'Choose when and where you wish us to collect & deliver your laundry.' },
+    { icon: '/Images/works-icon-4.png', number: 4, title: 'We Deliver', description: 'We bring back your freshly cleaned and rejuvenated clothes' },
   ];
 
   const lineProgress = useTransform(
@@ -80,7 +80,7 @@ function Works() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <img src="public/Images/heading-img.png" alt="heading-img" className="mx-auto mb-4" />
+          <img src="/Images/heading-img.png" alt="heading-img" className="mx-auto mb-4" />
           <p className="text-blue-600 font-semibold mb-2">Follow A Few Easy Steps</p>
           <h2 className="text-3xl font-bold text-gray-800">How it Works</h2>
         </motion.div>
@@ -175,7 +175,7 @@ function Works() {
               <div className="flex flex-col sm:flex-row">
                 <div className="w-full sm:w-1/2 bg-white text-black p-4 sm:p-8">
                   <img
-                    src="public/Images/Main_Logo-removebg-preview.png"
+                    src="/Images/Main_Logo-removebg-preview.png"
                     alt=""
                     className="mx-auto mb-4"
                   />

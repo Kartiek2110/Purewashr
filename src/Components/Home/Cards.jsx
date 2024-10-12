@@ -12,7 +12,7 @@ const cardData = [
     title: "Washing",
     price: "Rs. 30",
     discountedPrice: "Rs. 25*",
-    image:"public/Banner/pixlr-image-generator-4313fb0e-2d19-4cc2-a5ee-977dfdd1a520.png",
+    image:"/Banner/pixlr-image-generator-4313fb0e-2d19-4cc2-a5ee-977dfdd1a520.png",
     q1: "Premium Quality",
     q2: "Iron Included",
     q3: "Stain Removal Expertise",
@@ -22,7 +22,7 @@ const cardData = [
     title: "Ironing Clothes",
     price: "Rs. 15",
     discountedPrice: "Rs. 10*",
-    image: "public/Banner/pixlr-image-generator-d1aafd7e-c701-49ca-9d8e-260ca8000434.png",
+    image: "/Banner/pixlr-image-generator-d1aafd7e-c701-49ca-9d8e-260ca8000434.png",
     q1: "Premium Quality",
     q2: "Expert Ironing Included",
     q3: "Garment Care Mastery",
@@ -32,7 +32,7 @@ const cardData = [
     title: "Dry Cleaning",
     price: "Rs. 120",
     discountedPrice: "Rs. 100*",
-    image: "public/Banner/pixlr-image-generator-486e85ac-465b-4394-9a4c-db8dc784c273.png",
+    image: "/Banner/pixlr-image-generator-486e85ac-465b-4394-9a4c-db8dc784c273.png",
     q1: "Premium Quality",
     q2: "Expert Dry Cleaning Included",
     q3: "Additional Charges ",
@@ -42,7 +42,7 @@ const cardData = [
     title: "Bleaching",
     price: "Rs. 250",
     discountedPrice: "Rs. 200*",
-    image: "public/Images/bleaching.jpg",
+    image: "/Images/bleaching.jpg",
     q1: "Fabric Safety Assurance",
     q2: "Expert Bleaching Included",
     q3: "Premium Quality",
@@ -52,7 +52,7 @@ const cardData = [
     title: "Mini Subscription",
     price: "Rs. 599",
     discountedPrice: "Rs. 499*",
-    image: "public/Images/1.webp",
+    image: "/Images/1.webp",
     q1: "Convenient Rotation",
     q2: "Up to 25 Pairs of Clothes",
     q3: "For 1 Month",
@@ -62,7 +62,7 @@ const cardData = [
     title: "Full Subscription",
     price: "Rs. 1,499",
     discountedPrice: "Free for orders above Rs. 999*",
-    image: "public/Images/1.webp",
+    image: "/Images/1.webp",
     q1: "Convenient Rotation",
     q2: "Up to 50 Pairs of Clothes",
     q3: "For 1 Month",
@@ -201,7 +201,7 @@ const Cards = () => {
                   transition={{ delay: 0.5, duration: 0.5, type: "spring" }}
                 >
                   <div className="bg-white text-black rounded-lg shadow-md p-2">
-                    <img src="public/Images/Main_Logo-removebg-preview.png" alt="" />
+                    <img src="/Images/Main_Logo-removebg-preview.png" alt="" />
                     <hr className="w-full mt-1 h-[1px] bg-black" />
                     <div className="overflow-hidden">
                       <div className="bg-red-600 text-white">
@@ -259,7 +259,7 @@ const Cards = () => {
               <div className="flex flex-col">
                 <div className="bg-white text-black p-4">
                   <img
-                    src="public/Images/Main_Logo-removebg-preview.png"
+                    src="/Images/Main_Logo-removebg-preview.png"
                     alt=""
                     className="w-full max-w-xs mx-auto"
                   />

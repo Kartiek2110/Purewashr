@@ -117,7 +117,7 @@ const WhyUs = () => {
             
             {/* Main logo at the center */}
             <div className="absolute w-[320px] h-[320px] rounded-full bg-white shadow-lg flex items-center justify-center z-10">
-              <img src="public/Images/Main_Logo-removebg-preview.png" alt="PureWashr Logo" className="w-[350px] h-[350px] object-contain" />
+              <img src="/Images/Main_Logo-removebg-preview.png" alt="PureWashr Logo" className="w-[350px] h-[350px] object-contain" />
             </div>
             
             {reasons.map((reason, index) => {

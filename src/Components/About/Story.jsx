@@ -55,7 +55,7 @@ function Story() {
           variants={itemVariants} 
           className="w-full lg:w-1/2 bg-cover bg-center rounded-lg shadow-xl"
           style={{ 
-            backgroundImage: "url('public/Banner/pixlr-image-generator-3ec7121d-299e-4e11-b85f-4eed10bcf6d7.png')", 
+            backgroundImage: "url('/Banner/pixlr-image-generator-3ec7121d-299e-4e11-b85f-4eed10bcf6d7.png')", 
             height: "400px"
           }}
         />

@@ -49,7 +49,7 @@ function Navbar() {
           <div className="w-full h-full flex justify-between items-center relative">
             <div className="w-1/2 h-full flex justify-start items-center">
               <img
-                src="public/Images/Main_Logo-removebg-preview.png"
+                src="/Images/Main_Logo-removebg-preview.png"
                 alt="logo"
                 className="w-[30vh] h-[10vh] md:w-[30vh] md:h-[10vh]"
               />
@@ -219,7 +219,7 @@ function Navbar() {
               <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/2 bg-white text-black p-4 md:p-8">
                   <img
-                    src="public/Images/Main_Logo-removebg-preview.png"
+                    src="/Images/Main_Logo-removebg-preview.png"
                     alt=""
                     className="w-full max-w-[200px] mx-auto mb-4"
                   />

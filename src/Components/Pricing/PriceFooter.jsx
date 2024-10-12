@@ -39,7 +39,7 @@ function PriceFooter() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           <motion.div variants={childVariants} className="mb-8 sm:mb-0">
-            <img src="public/Images/Main_Logo-removebg-preview.png" alt="logo" className="w-[20vh] h-[7vh] sm:w-[30vh] sm:h-[10vh] bg-white rounded-full mb-4" />
+            <img src="/Images/Main_Logo-removebg-preview.png" alt="logo" className="w-[20vh] h-[7vh] sm:w-[30vh] sm:h-[10vh] bg-white rounded-full mb-4" />
             <p className="mb-6 text-gray-300 text-sm sm:text-base">Your trusted partner for all laundry needs. We bring freshness to your wardrobe and convenience to your life.</p>
             <div className="flex space-x-4">
               {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin].map((Icon, index) => (

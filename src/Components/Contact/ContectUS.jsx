@@ -32,7 +32,7 @@ const ContactUS = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-                <img className='w-[30vw]' src="public/Images/Main_Logo-removebg-preview.png" alt="" />
+                <img className='w-[30vw]' src="/Images/Main_Logo-removebg-preview.png" alt="" />
               <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
               <ul className="space-y-4">
                 <li className="flex items-center">

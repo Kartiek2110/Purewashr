@@ -18,7 +18,7 @@ function Home() {
       description:
         "At PureWashr, we ensure your clothes are washed and ironed with premium care, leaving them fresh, spotless, and ready to wear! 🧺✨",
       
-      backgroundImage: "public/Banner/pixlr-image-generator-3ec7121d-299e-4e11-b85f-4eed10bcf6d7.png",
+      backgroundImage: "/Banner/pixlr-image-generator-3ec7121d-299e-4e11-b85f-4eed10bcf6d7.png",
       formTitle: "Book Your Dry Cleaning Service",
     },
     {
@@ -26,7 +26,7 @@ function Home() {
       description:
         "Whether it’s formal wear or delicate items, our dry cleaning service offers top-notch care, keeping your special garments in perfect condition. 👗💼",
     
-      backgroundImage: "public/Banner/pixlr-image-generator-32b7e5d1-6e7a-4165-b3f9-18779adf3ce6.png",
+      backgroundImage: "/Banner/pixlr-image-generator-32b7e5d1-6e7a-4165-b3f9-18779adf3ce6.png",
       formTitle: "Schedule Your Laundry Pickup",
     },
     {
@@ -34,7 +34,7 @@ function Home() {
       description:
         "Say goodbye to long waits! We guarantee your clothes will be cleaned and delivered back to your door within 72 hours. 🚚⏳",
     
-      backgroundImage: "public/Banner/pixlr-image-generator-58bbd645-df12-4be1-9555-41979a615fe5.png",
+      backgroundImage: "/Banner/pixlr-image-generator-58bbd645-df12-4be1-9555-41979a615fe5.png",
       formTitle: "Book a Simple Laundry",
     },
 
