@@ -41,7 +41,7 @@ const Pricing = () => {
 
   return (
     <section className="bg-gradient-to-br mt-2 from-blue-100 to-indigo-200 py-20">
-      <div className="container mx-auto px-4">
+      <div className=" mx-auto ">
         <motion.section 
           className="relative mt-[10vh] bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 py-20"
           initial={{ opacity: 0 }}
@@ -76,7 +76,7 @@ const Pricing = () => {
           </div>
         </motion.section>
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12"
+          className="grid grid-cols-1 md:grid-cols-2 px-10 lg:grid-cols-3 gap-8 mt-12"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
